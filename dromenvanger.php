@@ -3,14 +3,12 @@
 echo "Hoeveel vrienden zal ik vragen om hun droom?" . "\n";
 $x = readline("");
 $ary = array();
-$aantal = 0;
 
 for($i = 0; $i < $x; $i++){
     echo "Wat is jouw naam?" . "\n";
     $na = readline("");
     echo "Hoeveel dromen ga je opgeven?" . "\n";
     $hvl = readline("");
-    $aantal = $hvl + $aantal;
 
     for($j = 0; $j < $hvl; $j++){
         echo "Wat is jouw droom?" . "\n";
